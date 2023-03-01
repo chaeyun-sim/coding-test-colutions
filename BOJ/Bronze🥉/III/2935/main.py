@@ -1,0 +1,1 @@
+print(eval(f"{int(input())} {input()} {int(input())}"))
