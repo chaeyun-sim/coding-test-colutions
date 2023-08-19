@@ -11,3 +11,17 @@ function solution(s){
     }
     return stack.length === 0
 }
+
+
+// 통과!
+
+function solution(s){
+    let cnt = 0
+    for (let i = 0; i < s.length; i++) {
+        if (cnt < 0) return false
+        
+        if (s[i] === '(') cnt++
+        else cnt--
+    }
+    return cnt === 0
+}
