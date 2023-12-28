@@ -1,2 +1,1 @@
-# Algorithm
-Algorithm Solutions from BOJ, Programmers, etc.
+Coding Test Solutions from BOJ, Programmers, etc.
